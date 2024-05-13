@@ -1,0 +1,25 @@
+#2-2.REST+HTTP
+    REST API is just an api using URLs
+        What if we want to create a movie?
+        nomadmovies.co/api/movies/create ? upload ? add ? 
+        -> Adding verbs on your api is not a good practice
+            it is not intuitive!
+        => we need to rely on the HTTP protocols
+        
+        method + URL allows us can do much more than just with URLs
+            GET /2/users/userId/bookmarks
+                get the data of the user's bookmarks 
+            POST /2/users/userId/bookmarks
+                create an data of the user's new bookmark
+            PUT /2/users/userId/bookmarks
+                update the bookmark!
+            DELETE /2/users/userId/bookmarks/:userId
+                delete the bookmark
+        
+        REST api is easy to understand!
+            most of the time, we are using GET, POST, PUT, DELETE
+
+    
+    참고
+    - HTTP Request Methods 
+        https://www.w3schools.com/tags/ref_httpmethods.asp
