@@ -7,6 +7,7 @@
         => we need to rely on the HTTP protocols
         
         method + URL allows us can do much more than just with URLs
+            By changing the HTTP method, the server will know what you want to do with the URLs
             GET /2/users/userId/bookmarks
                 get the data of the user's bookmarks 
             POST /2/users/userId/bookmarks
@@ -18,6 +19,7 @@
         
         REST api is easy to understand!
             most of the time, we are using GET, POST, PUT, DELETE
+            
 
     
     참고
