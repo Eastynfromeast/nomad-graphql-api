@@ -1,0 +1,3 @@
+# What software we need to proceed this class
+    For the first part - only browser is what you nedd
+    For the second part, you need VSCode! Thats.it
