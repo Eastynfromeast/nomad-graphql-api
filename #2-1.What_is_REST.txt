@@ -1,0 +1,23 @@
+#2-1.What_is_REST
+    Why we need a REST api or GraghQL api?
+        to communicate with a backend
+
+        Difference between REST api and GraghQL api?
+            how to access the data on that API, how you communicate with the server
+            just different buttons
+        
+        How to get data
+            REST 
+                ex. nomadmovies.co/api/movies
+                    nomadmovies.co/api/movies/1
+                    nomadmovies.co/api/search?rating=9
+                => nomadmovies should expose the URL in public
+                REST is organized and easy so ppl like it
+                Everyone can call this API
+                Things are very predictable since ppl use same conventions
+                    
+    
+    REST?
+        REpresentational 
+        State
+        Transfer
