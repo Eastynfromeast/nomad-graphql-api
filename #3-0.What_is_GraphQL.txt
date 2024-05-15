@@ -1,1 +1,14 @@
 #What_is_GraphQL?
+    GraphQL?
+        GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
+
+        GraghQL is a specification!
+            specification describes how it works
+        
+        The idea of GraphQL is same, 
+        but it is implemented in different environment
+
+        GraphQL is domain-specific language.
+        
+        We can check more details by GraphQL github
+        https://github.com/graphql/graphql-spec
