@@ -1,0 +1,9 @@
+#3-1.Overfetching & Underfetching
+    Problems GraphQL fixes === 2 very big problems REST api has
+    1. Overfetching 
+       getting much more data than we actually need
+
+        In GraphQL, we ask for the data we need, not getting requested data immediately
+        => Ask for what you need, get exactly that 
+
+    2.Underfetching
