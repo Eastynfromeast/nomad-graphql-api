@@ -7,3 +7,7 @@
         => Ask for what you need, get exactly that 
 
     2.Underfetching
+        when we fetch the data less than we need 
+        Then, we need to request much more times and some requests can be failed!
+        
+        ==> GraphQL APIs get all the data your app needs in a single request. === you don't have to send many requests with GraphQL
