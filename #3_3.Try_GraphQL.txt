@@ -1,0 +1,102 @@
+# Try GraphQL
+    https://graphql.github.io/swapi-graphql
+
+    allFilms (
+        after: String
+        first: Int
+        before: String
+        last: Int
+    ):FilmsConnection
+    == /api/v1/films in REST api world
+
+    {
+        allFilms {
+            totalCount
+            films {
+                title
+            }
+        }
+        allPeople {
+            people {
+                name
+                species {
+                    name
+                }
+                homeworld {
+                    name
+                }
+            }
+        }
+    }
+   ==> {
+            "data": {
+                "allFilms": {
+                    "totalCount": 6
+                    "films": [
+                        {
+                        "title": "A New Hope"
+                        },
+                        {
+                        "title": "The Empire Strikes Back"
+                        },
+                        {
+                        "title": "Return of the Jedi"
+                        },
+                        {
+                        "title": "The Phantom Menace"
+                        },
+                        {
+                        "title": "Attack of the Clones"
+                        },
+                        {
+                        "title": "Revenge of the Sith"
+                        }
+                    ]
+                },
+                "allPeople": {
+                    "people": [
+                        {
+                        "name": "Luke Skywalker",
+                        "species": null,
+                            "homeworld": {
+                                "name": "Tatooine"
+                            }
+                        },
+                        {
+                        "name": "C-3PO",
+                        "species": {
+                            "name": "Droid"
+                        },
+                            "homeworld": {
+                                "name": "Tatooine"
+                            }
+                        },
+                        {
+                        "name": "R2-D2",
+                        "species": {
+                            "name": "Droid"
+                        },
+                            "homeworld": {
+                                "name": "Naboo"
+                            }
+                        },
+                        {
+                        "name": "Darth Vader",
+                        "species": null,
+                            "homeworld": {
+                                "name": "Tatooine"
+                            }
+                        },
+                        {
+                        "name": "Leia Organa",
+                        "species": null,
+                            "homeworld": {
+                                "name": "Alderaan"
+                            }
+                        },
+                    ]
+                }
+            }
+        }
+ 
+    Everything in GraphQL has types, so it can be autocompleted
