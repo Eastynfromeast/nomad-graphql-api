@@ -4,3 +4,27 @@
     === like a Node.JS server but understand GraphQL specification
 
     We are gonna create API like tweeter on tweetql directory
+
+        npm init -y
+            initialize a node repository of tweetql
+
+        npm i apollo-server graphql
+        ref.New minor version of npm available! 10.2.4 -> 10.8.0 on 2024.05.15 woooooooowwwww
+
+        npm i nodemon -D
+            for a good developer experience
+
+        touch server.js
+
+        package.json
+            "type": "module" 
+                to use import syntax like below
+                import { ApolloServer, gql } from "apollo-server";
+                === const { ApolloServer, gql } = require("apollo-server")
+        
+        npm run dev
+            nodemon restarts server everytime we save server.js file
+
+        Apollo Server requires either an existing schema, modules or typeDefs
+    
+        
