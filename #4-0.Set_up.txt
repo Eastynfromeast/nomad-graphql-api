@@ -1,0 +1,6 @@
+#4-0.Set up
+    https://www.apollographql.com/docs/apollo-server
+    Apollo Server is an open-source, spec-compliant GraphQL server
+    === like a Node.JS server but understand GraphQL specification
+
+    We are gonna create API like tweeter on tweetql directory
