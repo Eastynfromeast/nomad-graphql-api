@@ -1,0 +1,16 @@
+#4-6.Qeury Revolver
+      GraphQL schema definition language
+        any GraphQL server will understand it
+        BUT depending on what programming language you are using the next step will be diffrent
+        The logic will be the same which is called "Resolvers"
+
+    type Query has a field called "allTweets",
+    and we are going to write resolvers for the allTweets field
+
+    When Apollo server call your resolver function, Apollo server gives root argument and arguments the function needs to your function!
+
+    When user sends arguments, those arguments always be SECOND arguments, ALWAYS
+    Root argument will be ALWAYS FIRST
+
+
+#4-7.Mutation Revolver
